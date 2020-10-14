@@ -44,7 +44,7 @@ ul.posts li {
 
 /* Melissa's Code */
 .name_header {
-    background-image: url("/css/images/stanford.jpg")
+    background-image: url("/css/images/stanford.jpg");
     font-family: "Times New Roman", Times, serif;
     text-align: center;
 }
