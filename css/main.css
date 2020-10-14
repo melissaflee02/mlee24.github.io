@@ -44,7 +44,8 @@ ul.posts li {
 
 /* Melissa's Code */
 .name_header {
-    background-color: blue;
-    font-family: "Times New Roman", Times, serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 75px;
     text-align: center;
 }
