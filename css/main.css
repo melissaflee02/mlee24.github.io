@@ -41,3 +41,9 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+/* Melissa's Code */
+.name_header {
+    font-color: white;
+    background-image: url("images/stanford.jpg")
+}
