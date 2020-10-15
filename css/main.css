@@ -45,7 +45,8 @@ ul.posts li {
 /* Melissa's Code */
 .name_header {
     background: url("images/stanford.jpg");
-    background-size: 10%;
+    background-size: 70%;
+    background-repeat: no-repeat;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 25px;
