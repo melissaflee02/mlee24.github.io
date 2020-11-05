@@ -105,8 +105,8 @@ a:active {
   background-color: transparent;
   width: 675px;
   height: 400px;
-  perspective: 1000px;
-  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .flip-card-front {
