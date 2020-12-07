@@ -1,124 +1,45 @@
-html {
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 10px;
-}
-
-header {
-  padding-top: 60px;
-  padding-bottom: 40px;
-  background-image: url("images/stanford.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  text-align: center;
-  font-size: 20px;
-  color: gainsboro;
-}
-
 body {
-  background-color: AliceBlue;
+  background-color: #fff2f3;
 }
 
-table {
-  width: 100%;
+img {
+  float: left;
+  border-radius: 25px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 20px;
+  max-width: 32%;
 }
 
 h1 {
-  color: black;
-  font-size: 25px;
-  text-align: center;
-
-  font-family: 'Fira Code', monospace;
-  background: linear-gradient(to bottom, #C11, #F44 70%, #B00 20%, #A00 10%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  background-repeat: no-repeat;
-  transition: background 0.2s ease-out;
-  white-space: nowrap;
+  margin-bottom: -4px;
+  padding-top: 18px;
+  color: #b32020;
+  font-size: 3vw;
+  font-family: geneva;
 }
 
-p {
-  text-align: justify;
-  text-justify: inter-word;
-  color: black;
-  font-family: "courier new";
-  font-size: 12px;
-  line-height: 150%;
-  padding-left: 7px;
-  padding-right: 9px;
-}
-
-a:link {
-  color: firebrick;
-}
-
-a:visited {
-  color: darkred; 
-}
-
-a:hover {
+h2 {
+  margin-bottom: -8px;
+  font-size: 1.75vw;
+  font-family: geneva;
   font-weight: bold;
 }
 
+p {
+  font-size: 1.35vw;
+  font-family: geneva;
+}
+
+a {
+  color: #b32020;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 a:active {
-  color: lightpink;
+  color: black;
 }
-
-/* social icons */
-.social-icons {
-  text-align: left;
-}
-.social-icons li img {
-  width: 40px;
-  height: 40px;
-}
-
-/* pulsating circle */
-#container {
-  width: 175px;
-  height: 175px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  position: relative;
-}
- 
-.item {
-  z-index: 100;
-  padding: 5px;
-  width: 112px;
-  height: 112px;
-  position: relative;
-  overflow: hidden;
-  border-radius: 50%;
-}
- 
-.item img {
-  transform: translate(-25%, -21%);
-}
-
-/* flip card */
-.flip-card {
-  background-color: transparent;
-  width: 675px;
-  height: 400px;
-  margin-top: 10%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.flip-card-front {
-  background-color: mistyrose;
-  text-align: left;
-}
-
-.flip-card-front img {
-  width: 150px;
-  height: auto;
-  padding-left: 7px;
-  padding-right: 7px;
-}
-
