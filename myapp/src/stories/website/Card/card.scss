@@ -1,0 +1,102 @@
+$default-font-size:1.2em;
+$desktop-font-size:1.4em;
+$default-line-height:1.3em;
+$desktop-line-height:1.5em;
+$desktop-max-width:37em;
+$default-margin-top:1.5em;
+$default-padding:0 2.25em;
+$desktop-padding:0 2.5em;
+$default-distance: 1em;
+$default-duration: .2s;
+$default-footer-margins: 1.5em 0;
+$default-bar-height:0.25em;
+$easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
+
+:root {
+  --default-color: #262A53;
+  --default-link-color: #E98580;
+  --default-background-color: #FDF6F0;
+}
+
+[data-theme="dark"] {
+  --default-color: #FDF6F0;
+  --default-link-color: #FFA0A0;
+  --default-background-color: #262A53;
+}
+
+.wrapper {
+  background-color: var(--default-background-color);
+
+  .card-content {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--default-color);
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: $default-font-size;
+    line-height: $default-line-height;
+    padding: $default-padding;
+    margin: 0 auto;
+
+    @media (min-width: 900px) {
+      font-size: $desktop-font-size;
+      line-height: $desktop-line-height;
+      max-width: $desktop-max-width;
+      padding: $desktop-padding;
+    }
+
+    hr {
+      border: none;
+      height: $default-bar-height;
+      background-color: var(--default-link-color);
+      border-radius: 1em;
+      margin-top: $default-margin-top;
+    }
+
+    a {
+      color: var(--default-link-color);
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+  
+      &:before,
+      &:after {
+        content: ''; // any text coming before the link
+        position: absolute;
+        bottom: 2px;
+        left: 0; 
+        right: 0;
+        height: 2px;
+        background-color: var(--default-underline-color);
+      }
+      &:before {
+        opacity: 0;
+        transform: translateY(- $default-distance);
+        transition: transform 0s $easeOutBack, opacity 0s;
+      }
+      &:after {
+        opacity: 0;
+        transform: translateY($default-distance/2);
+        transition: transform $default-duration $easeOutBack, opacity $default-duration;
+      }
+      &:hover,
+      &:focus {
+        &:before,
+        &:after {
+          opacity: 1;
+          transform: translateY(0);
+        }
+        &:before {
+          transition: transform $default-duration $easeOutBack, opacity $default-duration;
+        }
+        &:after {
+          transition: transform 0s $default-duration $easeOutBack, opacity 0s $default-duration;
+        }
+      }
+    }
+
+    .footer {
+      margin: $default-footer-margins;
+      text-align: right;
+    }
+  }
+}
