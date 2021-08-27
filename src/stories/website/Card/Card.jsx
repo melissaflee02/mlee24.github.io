@@ -32,7 +32,7 @@ const Card = ({
           Having struggled with social interaction at a young age, I am passionate about leveraging technology to advance the human interaction model. In pursuit of this goal, I envision an Artificial Intelligence bot that can facilitate, and engage in, healthy human interaction.
         </p>
         <div className="footer">
-          <a href="google.com">Resume.pdf</a>
+          <a href="https://melissaflee.github.io/files/Melissa_Lee_Resume.pdf">Resume.pdf</a>
         </div>
       </div>
     </div>
