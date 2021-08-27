@@ -30,7 +30,7 @@ nav {
   background-color: var(--default-background-color);
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
-  display: grid;
+  height: 100vh;
 
   .nav-content {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -85,6 +85,7 @@ nav {
   }
 
   @media (min-width: 900px) {
+    display: grid;
     .nav-content {
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       float:right;

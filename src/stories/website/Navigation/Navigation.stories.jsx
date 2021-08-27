@@ -31,7 +31,7 @@ export const Base = () => {
   ]
 
   return (
-    <main style={{ height: '100%' }}>
+    <main>
       <Navigation
         menu={menu}
       />
