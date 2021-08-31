@@ -22,15 +22,10 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
   --default-background-color: #262A53;
 }
 
-nav {
-  min-height: 100vh;
-}
-
 .wrapper {
   background-color: var(--default-background-color);
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
-  height: 100vh;
 
   .nav-content {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
