@@ -19,12 +19,14 @@ const Card = ({
         <p>
           I'm Melissa, a Computer Science major at&nbsp;
           <a href="https://www.stanford.edu/">Stanford University</a>
-          . I am a software engineer intern at&nbsp;
+          &nbsp;specializing in Human-Computer Interaction. Last Summer, I interned at&nbsp;
           <a href="https://hellopareto.com/">Pareto Inc.</a>
           , working with ReactJS and GraphQL to build and maintain responsive web pages.
         </p>
         <p>
-          In my free time, I enjoy playing ultimate frisbee and learning more about the programming world through independent coding projects. Feel free to check out my&nbsp;
+          In my free time, I enjoy growing the sport of&nbsp;
+          <a href="https://www.wrestling.life/yes-we-can">women's wrestling</a>
+          &nbsp;and learning more about the programming world through independent coding projects. Feel free to check out my&nbsp;
           <a href="https://github.com/melissaflee02">Github</a>
           !
         </p>
