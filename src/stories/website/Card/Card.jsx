@@ -17,11 +17,11 @@ const Card = ({
       <div className="card-content">
         <hr></hr>
         <p>
-          I'm Melissa, a Computer Science major at&nbsp;
+          Hi. I'm Melissa, a Computer Science major at&nbsp;
           <a href="https://www.stanford.edu/">Stanford University</a>
-          &nbsp;specializing in Human-Computer Interaction. Last Summer, I interned at&nbsp;
-          <a href="https://hellopareto.com/">Pareto Inc.</a>
-          , working with ReactJS and GraphQL to build and maintain responsive web pages.
+          &nbsp;studying Artificial Intelligence and Human-Computer Interaction. Last Summer, I interned at&nbsp;
+          <a href="https://www.riotgames.com/en">Riot Games</a>
+          , revamping our name-checking service with a new ML model to better detect and penalize disruptive user-specified names.
         </p>
         <p>
           In my free time, I enjoy growing the sport of&nbsp;
