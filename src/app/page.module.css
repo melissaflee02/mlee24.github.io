@@ -52,6 +52,7 @@
   position: relative;
   padding: 2rem 0;
   max-width: var(--max-width);
+  text-align: justify;
 }
 
 .center p {
