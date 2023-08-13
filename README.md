@@ -3,7 +3,7 @@
 To run locally:
 
 ```bash
-yarn dev
+npm run dev
 ```
 
 To create new build:
