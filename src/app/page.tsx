@@ -15,7 +15,7 @@ export default function Home() {
       <div className={styles.center}>
         <p>
           <b>Hi! I'm Melissa</b>, a rising senior at <a href="https://www.stanford.edu/" className={styles.link}>Stanford University</a> pursuing 
-          a dual Bachelor's and Master's degree in Computer Science (Artificial Intelligence and Human-Computer Interaction). This past summer, 
+          a dual Bachelor's and Master's degree in Computer Science (Artificial Intelligence and Computer Systems). This past summer, 
           I interned at <a href="https://www.riotgames.com/en" className={styles.link}>Riot Games</a>, architecting and implementing an end-to-end 
           match simulation framework enabling all game teams across <i>League of Legends</i>, <i>Valorant</i>, and R&D initiatives to iteratively test and 
           optimize their matchmaking algorithms. This complemented my previous year's experience integrating an industry-leading BERT Natural Language 
