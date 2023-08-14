@@ -1,4 +1,5 @@
 import styles from './page.module.css'
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -7,7 +8,7 @@ export default function Home() {
         <p>
           Welcome to my page!&nbsp;
         </p>
-        <a href="%PUBLIC_URL%/Melissa_Lee_Resume.pdf">Resume</a>
+        <a href="../public/Melissa_Lee_Resume.pdf">Resume</a>
       </div>
 
       
