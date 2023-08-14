@@ -66,7 +66,7 @@ export default function Home() {
           href="mailto: mlee24@stanford.edu"
           className={styles.card}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener noreferrer" 
         >
           <h2>
             Email
